@@ -22,6 +22,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -31,11 +32,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U foo>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -48,6 +51,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -57,11 +61,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U foo=>
                 block = nullptr
+                pos_args = 1
                 args = [
                   Literal{ value = "b" }
                 ]
@@ -75,6 +81,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -84,11 +91,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U foo2>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -101,6 +110,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -110,11 +120,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U foo2=>
                 block = nullptr
+                pos_args = 1
                 args = [
                   Literal{ value = "b" }
                 ]
@@ -128,6 +140,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -137,11 +150,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U default>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -154,6 +169,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -163,11 +179,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U t_nilable>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -180,6 +198,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -189,11 +208,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U t_array>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -206,6 +227,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -215,11 +237,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U hash_of>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -232,6 +256,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -241,11 +266,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U const_explicit>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -259,11 +286,13 @@ ClassDef{
               }
               fun = <U new>
               block = nullptr
+              pos_args = 0
               args = [
               ]
             }
             fun = <U const_explicit=>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "b" }
             ]
@@ -275,6 +304,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -284,11 +314,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U const>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -302,11 +334,13 @@ ClassDef{
               }
               fun = <U new>
               block = nullptr
+              pos_args = 0
               args = [
               ]
             }
             fun = <U const=>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "b" }
             ]
@@ -318,6 +352,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -327,11 +362,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U enum_prop>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -345,11 +382,13 @@ ClassDef{
               }
               fun = <U new>
               block = nullptr
+              pos_args = 0
               args = [
               ]
             }
             fun = <U enum_prop=>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "hello" }
             ]
@@ -361,6 +400,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -370,11 +410,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U foreign_>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -387,6 +429,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -396,11 +439,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U foreign_!>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -413,6 +458,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -422,11 +468,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U foreign_lazy_>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -440,11 +488,13 @@ ClassDef{
               }
               fun = <U new>
               block = nullptr
+              pos_args = 0
               args = [
               ]
             }
             fun = <U foreign_invalid_>
             block = nullptr
+            pos_args = 0
             args = [
             ]
           }
@@ -455,6 +505,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -464,11 +515,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U token>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -482,11 +535,13 @@ ClassDef{
               }
               fun = <U new>
               block = nullptr
+              pos_args = 0
               args = [
               ]
             }
             fun = <U token=>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "tok_token" }
             ]
@@ -499,11 +554,13 @@ ClassDef{
               }
               fun = <U new>
               block = nullptr
+              pos_args = 0
               args = [
               ]
             }
             fun = <U token=>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = nil }
             ]
@@ -515,6 +572,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -524,11 +582,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U created>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -542,11 +602,13 @@ ClassDef{
               }
               fun = <U new>
               block = nullptr
+              pos_args = 0
               args = [
               ]
             }
             fun = <U created=>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = 0.000000 }
             ]
@@ -559,11 +621,13 @@ ClassDef{
               }
               fun = <U new>
               block = nullptr
+              pos_args = 0
               args = [
               ]
             }
             fun = <U created=>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = nil }
             ]
@@ -575,6 +639,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -584,11 +649,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U token>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -602,11 +669,13 @@ ClassDef{
               }
               fun = <U new>
               block = nullptr
+              pos_args = 0
               args = [
               ]
             }
             fun = <U token=>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "tok_token" }
             ]
@@ -619,11 +688,13 @@ ClassDef{
               }
               fun = <U new>
               block = nullptr
+              pos_args = 0
               args = [
               ]
             }
             fun = <U token=>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = nil }
             ]
@@ -635,6 +706,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -644,11 +716,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U created>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -662,11 +736,13 @@ ClassDef{
               }
               fun = <U new>
               block = nullptr
+              pos_args = 0
               args = [
               ]
             }
             fun = <U created=>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = 0.000000 }
             ]
@@ -678,6 +754,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -687,11 +764,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U merchant>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -705,11 +784,13 @@ ClassDef{
               }
               fun = <U new>
               block = nullptr
+              pos_args = 0
               args = [
               ]
             }
             fun = <U merchant=>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "hi" }
             ]
@@ -721,6 +802,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -730,11 +812,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U foo>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -747,6 +831,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -756,11 +841,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U encrypted_foo>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -774,11 +861,13 @@ ClassDef{
               }
               fun = <U new>
               block = nullptr
+              pos_args = 0
               args = [
               ]
             }
             fun = <U foo=>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "hello" }
             ]
@@ -791,11 +880,13 @@ ClassDef{
               }
               fun = <U new>
               block = nullptr
+              pos_args = 0
               args = [
               ]
             }
             fun = <U foo=>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = nil }
             ]
@@ -808,11 +899,13 @@ ClassDef{
               }
               fun = <U new>
               block = nullptr
+              pos_args = 0
               args = [
               ]
             }
             fun = <U bar=>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "hello" }
             ]
@@ -824,6 +917,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -833,11 +927,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U ifunset>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -850,6 +946,7 @@ ClassDef{
             }
             fun = <U reveal_type>
             block = nullptr
+            pos_args = 1
             args = [
               Send{
                 recv = Send{
@@ -859,11 +956,13 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U ifunset_nilable>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
@@ -877,11 +976,13 @@ ClassDef{
               }
               fun = <U new>
               block = nullptr
+              pos_args = 0
               args = [
               ]
             }
             fun = <U ifunset=>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = nil }
             ]
@@ -895,11 +996,13 @@ ClassDef{
             }
             fun = <U new>
             block = nullptr
+            pos_args = 0
             args = [
             ]
           }
           fun = <U ifunset_nilable=>
           block = nullptr
+          pos_args = 1
           args = [
             Literal{ value = nil }
           ]
@@ -938,6 +1041,7 @@ ClassDef{
           }
           fun = <U keep_self_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -952,6 +1056,7 @@ ClassDef{
           }
           fun = <U prop>
           block = nullptr
+          pos_args = 0
           args = [
           ]
         }
@@ -962,6 +1067,7 @@ ClassDef{
           }
           fun = <U prop>
           block = nullptr
+          pos_args = 2
           args = [
             Literal{ value = :"foo" }
             Literal{ value = :"not_a_string" }
@@ -974,6 +1080,7 @@ ClassDef{
           }
           fun = <U prop>
           block = nullptr
+          pos_args = 2
           args = [
             Literal{ value = "not_a_symbol" }
             UnresolvedConstantLit{
@@ -989,6 +1096,7 @@ ClassDef{
           }
           fun = <U prop>
           block = nullptr
+          pos_args = 3
           args = [
             Literal{ value = :"foo" }
             UnresolvedConstantLit{
@@ -1005,6 +1113,7 @@ ClassDef{
           }
           fun = <U prop>
           block = nullptr
+          pos_args = 4
           args = [
             Literal{ value = "too" }
             UnresolvedConstantLit{
@@ -1025,6 +1134,7 @@ ClassDef{
           }
           fun = <U optional>
           block = nullptr
+          pos_args = 3
           args = [
             Literal{ value = :"company_name" }
             UnresolvedConstantLit{
@@ -1041,6 +1151,7 @@ ClassDef{
           }
           fun = <U optional>
           block = nullptr
+          pos_args = 2
           args = [
             Literal{ value = :"day" }
             Send{
@@ -1050,19 +1161,12 @@ ClassDef{
               }
               fun = <U new>
               block = nullptr
+              pos_args = 0
               args = [
-                Hash{
-                  pairs = [
-                    [
-                      key = Literal{ value = :"min" }
-                      value = Literal{ value = 1 }
-                    ]
-                    [
-                      key = Literal{ value = :"max" }
-                      value = Literal{ value = 31 }
-                    ]
-                  ]
-                }
+                Literal{ value = :"min" }
+                Literal{ value = 1 }
+                Literal{ value = :"max" }
+                Literal{ value = 31 }
               ]
             }
           ]
@@ -1074,6 +1178,7 @@ ClassDef{
           }
           fun = <U optional>
           block = nullptr
+          pos_args = 2
           args = [
             Literal{ value = :"name" }
             Send{
@@ -1083,6 +1188,7 @@ ClassDef{
               }
               fun = <U alphanumeric>
               block = nullptr
+              pos_args = 0
               args = [
               ]
             }
@@ -1095,6 +1201,7 @@ ClassDef{
           }
           fun = <U optional>
           block = nullptr
+          pos_args = 2
           args = [
             Literal{ value = :"how_many" }
             Send{
@@ -1110,6 +1217,7 @@ ClassDef{
               }
               fun = <U new>
               block = nullptr
+              pos_args = 2
               args = [
                 Send{
                   recv = Local{
@@ -1117,6 +1225,7 @@ ClassDef{
                   }
                   fun = <U how_many_cases>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
@@ -1133,6 +1242,7 @@ ClassDef{
                   }
                   fun = <U new>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     UnresolvedConstantLit{
                       scope = EmptyTree
@@ -1151,6 +1261,7 @@ ClassDef{
           }
           fun = <U optional>
           block = nullptr
+          pos_args = 2
           args = [
             Literal{ value = :"optional_param" }
             Send{
@@ -1160,6 +1271,7 @@ ClassDef{
               }
               fun = <U new>
               block = nullptr
+              pos_args = 0
               args = [
               ]
             }
@@ -1195,15 +1307,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -1212,6 +1322,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -1240,6 +1351,7 @@ ClassDef{
                   }
                   fun = <U instance_variable_get>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     Literal{ value = :"@foo" }
                   ]
@@ -1254,16 +1366,19 @@ ClassDef{
                   }
                   fun = <U class>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U decorator>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
               fun = <U prop_get_logic>
               block = nullptr
+              pos_args = 3
               args = [
                 Local{
                   localVariable = <U <self>>
@@ -1294,22 +1409,18 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"arg0" }
-                        value = UnresolvedConstantLit{
-                          scope = EmptyTree
-                          cnst = <C <U String>>
-                        }
-                      ]
-                    ]
+                  Literal{ value = :"arg0" }
+                  UnresolvedConstantLit{
+                    scope = EmptyTree
+                    cnst = <C <U String>>
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -1318,6 +1429,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -1346,6 +1458,7 @@ ClassDef{
                   }
                   fun = <U non_forcing_is_a?>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -1360,6 +1473,7 @@ ClassDef{
                   }
                   fun = <U soft_freeze_logic>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -1376,6 +1490,7 @@ ClassDef{
               }
               fun = <U instance_variable_set>
               block = nullptr
+              pos_args = 2
               args = [
                 Literal{ value = :"@foo" }
                 UnresolvedIdent{
@@ -1402,6 +1517,7 @@ ClassDef{
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = UnresolvedConstantLit{
@@ -1410,6 +1526,7 @@ ClassDef{
                   }
                   fun = <U nilable>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     UnresolvedConstantLit{
                       scope = EmptyTree
@@ -1420,6 +1537,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             Local{
               localVariable = <U <self>>
@@ -1441,6 +1559,7 @@ ClassDef{
             }
             fun = <U cast>
             block = nullptr
+            pos_args = 2
             args = [
               Send{
                 recv = UnresolvedConstantLit{
@@ -1449,6 +1568,7 @@ ClassDef{
                 }
                 fun = <U unsafe>
                 block = nullptr
+                pos_args = 1
                 args = [
                   Literal{ value = nil }
                 ]
@@ -1460,6 +1580,7 @@ ClassDef{
                 }
                 fun = <U nilable>
                 block = nullptr
+                pos_args = 1
                 args = [
                   UnresolvedConstantLit{
                     scope = EmptyTree
@@ -1487,22 +1608,18 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"arg0" }
-                        value = UnresolvedConstantLit{
-                          scope = EmptyTree
-                          cnst = <C <U String>>
-                        }
-                      ]
-                    ]
+                  Literal{ value = :"arg0" }
+                  UnresolvedConstantLit{
+                    scope = EmptyTree
+                    cnst = <C <U String>>
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -1511,6 +1628,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             Local{
               localVariable = <U <self>>
@@ -1535,6 +1653,7 @@ ClassDef{
             }
             fun = <U cast>
             block = nullptr
+            pos_args = 2
             args = [
               Literal{ value = nil }
               UnresolvedConstantLit{
@@ -1551,6 +1670,7 @@ ClassDef{
           }
           fun = <U extend>
           block = nullptr
+          pos_args = 1
           args = [
             UnresolvedConstantLit{
               scope = UnresolvedConstantLit{
@@ -1568,6 +1688,7 @@ ClassDef{
           }
           fun = <U include>
           block = nullptr
+          pos_args = 1
           args = [
             UnresolvedConstantLit{
               scope = UnresolvedConstantLit{
@@ -1585,20 +1706,15 @@ ClassDef{
           }
           fun = <U prop>
           block = nullptr
+          pos_args = 2
           args = [
             Literal{ value = :"foo" }
             UnresolvedConstantLit{
               scope = EmptyTree
               cnst = <C <U String>>
             }
-            Hash{
-              pairs = [
-                [
-                  key = Literal{ value = :"without_accessors" }
-                  value = Literal{ value = true }
-                ]
-              ]
-            }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
           ]
         }
 
@@ -1609,6 +1725,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -1624,6 +1741,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -1639,6 +1757,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -1654,6 +1773,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -1705,15 +1825,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -1722,6 +1840,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -1750,6 +1869,7 @@ ClassDef{
                   }
                   fun = <U instance_variable_get>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     Literal{ value = :"@default" }
                   ]
@@ -1764,16 +1884,19 @@ ClassDef{
                   }
                   fun = <U class>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U decorator>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
               fun = <U prop_get_logic>
               block = nullptr
+              pos_args = 3
               args = [
                 Local{
                   localVariable = <U <self>>
@@ -1804,22 +1927,18 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"arg0" }
-                        value = UnresolvedConstantLit{
-                          scope = EmptyTree
-                          cnst = <C <U String>>
-                        }
-                      ]
-                    ]
+                  Literal{ value = :"arg0" }
+                  UnresolvedConstantLit{
+                    scope = EmptyTree
+                    cnst = <C <U String>>
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -1828,6 +1947,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -1856,6 +1976,7 @@ ClassDef{
                   }
                   fun = <U non_forcing_is_a?>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -1870,6 +1991,7 @@ ClassDef{
                   }
                   fun = <U soft_freeze_logic>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -1886,6 +2008,7 @@ ClassDef{
               }
               fun = <U instance_variable_set>
               block = nullptr
+              pos_args = 2
               args = [
                 Literal{ value = :"@default" }
                 UnresolvedIdent{
@@ -1913,15 +2036,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = UnresolvedConstantLit{
@@ -1930,6 +2051,7 @@ ClassDef{
                   }
                   fun = <U nilable>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     UnresolvedConstantLit{
                       scope = EmptyTree
@@ -1940,6 +2062,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -1968,6 +2091,7 @@ ClassDef{
                   }
                   fun = <U instance_variable_get>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     Literal{ value = :"@t_nilable" }
                   ]
@@ -1982,16 +2106,19 @@ ClassDef{
                   }
                   fun = <U class>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U decorator>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
               fun = <U prop_get_logic>
               block = nullptr
+              pos_args = 3
               args = [
                 Local{
                   localVariable = <U <self>>
@@ -2022,32 +2149,29 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"arg0" }
-                        value = Send{
-                          recv = UnresolvedConstantLit{
-                            scope = EmptyTree
-                            cnst = <C <U T>>
-                          }
-                          fun = <U nilable>
-                          block = nullptr
-                          args = [
-                            UnresolvedConstantLit{
-                              scope = EmptyTree
-                              cnst = <C <U String>>
-                            }
-                          ]
-                        }
-                      ]
+                  Literal{ value = :"arg0" }
+                  Send{
+                    recv = UnresolvedConstantLit{
+                      scope = EmptyTree
+                      cnst = <C <U T>>
+                    }
+                    fun = <U nilable>
+                    block = nullptr
+                    pos_args = 1
+                    args = [
+                      UnresolvedConstantLit{
+                        scope = EmptyTree
+                        cnst = <C <U String>>
+                      }
                     ]
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = UnresolvedConstantLit{
@@ -2056,6 +2180,7 @@ ClassDef{
                   }
                   fun = <U nilable>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     UnresolvedConstantLit{
                       scope = EmptyTree
@@ -2066,6 +2191,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -2094,6 +2220,7 @@ ClassDef{
                   }
                   fun = <U non_forcing_is_a?>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -2108,6 +2235,7 @@ ClassDef{
                   }
                   fun = <U soft_freeze_logic>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -2124,6 +2252,7 @@ ClassDef{
               }
               fun = <U instance_variable_set>
               block = nullptr
+              pos_args = 2
               args = [
                 Literal{ value = :"@t_nilable" }
                 UnresolvedIdent{
@@ -2151,15 +2280,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -2168,6 +2295,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -2196,6 +2324,7 @@ ClassDef{
                   }
                   fun = <U instance_variable_get>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     Literal{ value = :"@array" }
                   ]
@@ -2210,16 +2339,19 @@ ClassDef{
                   }
                   fun = <U class>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U decorator>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
               fun = <U prop_get_logic>
               block = nullptr
+              pos_args = 3
               args = [
                 Local{
                   localVariable = <U <self>>
@@ -2250,22 +2382,18 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"arg0" }
-                        value = UnresolvedConstantLit{
-                          scope = EmptyTree
-                          cnst = <C <U Array>>
-                        }
-                      ]
-                    ]
+                  Literal{ value = :"arg0" }
+                  UnresolvedConstantLit{
+                    scope = EmptyTree
+                    cnst = <C <U Array>>
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -2274,6 +2402,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -2302,6 +2431,7 @@ ClassDef{
                   }
                   fun = <U non_forcing_is_a?>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -2316,6 +2446,7 @@ ClassDef{
                   }
                   fun = <U soft_freeze_logic>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -2332,6 +2463,7 @@ ClassDef{
               }
               fun = <U instance_variable_set>
               block = nullptr
+              pos_args = 2
               args = [
                 Literal{ value = :"@array" }
                 UnresolvedIdent{
@@ -2359,15 +2491,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = UnresolvedConstantLit{
@@ -2379,6 +2509,7 @@ ClassDef{
                   }
                   fun = <U []>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     UnresolvedConstantLit{
                       scope = EmptyTree
@@ -2389,6 +2520,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -2417,6 +2549,7 @@ ClassDef{
                   }
                   fun = <U instance_variable_get>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     Literal{ value = :"@t_array" }
                   ]
@@ -2431,16 +2564,19 @@ ClassDef{
                   }
                   fun = <U class>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U decorator>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
               fun = <U prop_get_logic>
               block = nullptr
+              pos_args = 3
               args = [
                 Local{
                   localVariable = <U <self>>
@@ -2471,35 +2607,32 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"arg0" }
-                        value = Send{
-                          recv = UnresolvedConstantLit{
-                            scope = UnresolvedConstantLit{
-                              scope = EmptyTree
-                              cnst = <C <U T>>
-                            }
-                            cnst = <C <U Array>>
-                          }
-                          fun = <U []>
-                          block = nullptr
-                          args = [
-                            UnresolvedConstantLit{
-                              scope = EmptyTree
-                              cnst = <C <U String>>
-                            }
-                          ]
-                        }
-                      ]
+                  Literal{ value = :"arg0" }
+                  Send{
+                    recv = UnresolvedConstantLit{
+                      scope = UnresolvedConstantLit{
+                        scope = EmptyTree
+                        cnst = <C <U T>>
+                      }
+                      cnst = <C <U Array>>
+                    }
+                    fun = <U []>
+                    block = nullptr
+                    pos_args = 1
+                    args = [
+                      UnresolvedConstantLit{
+                        scope = EmptyTree
+                        cnst = <C <U String>>
+                      }
                     ]
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = UnresolvedConstantLit{
@@ -2511,6 +2644,7 @@ ClassDef{
                   }
                   fun = <U []>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     UnresolvedConstantLit{
                       scope = EmptyTree
@@ -2521,6 +2655,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -2549,6 +2684,7 @@ ClassDef{
                   }
                   fun = <U non_forcing_is_a?>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -2563,6 +2699,7 @@ ClassDef{
                   }
                   fun = <U soft_freeze_logic>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -2579,6 +2716,7 @@ ClassDef{
               }
               fun = <U instance_variable_set>
               block = nullptr
+              pos_args = 2
               args = [
                 Literal{ value = :"@t_array" }
                 UnresolvedIdent{
@@ -2606,15 +2744,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = UnresolvedConstantLit{
@@ -2626,6 +2762,7 @@ ClassDef{
                   }
                   fun = <U []>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     UnresolvedConstantLit{
                       scope = EmptyTree
@@ -2640,6 +2777,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -2668,6 +2806,7 @@ ClassDef{
                   }
                   fun = <U instance_variable_get>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     Literal{ value = :"@hash_of" }
                   ]
@@ -2682,16 +2821,19 @@ ClassDef{
                   }
                   fun = <U class>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U decorator>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
               fun = <U prop_get_logic>
               block = nullptr
+              pos_args = 3
               args = [
                 Local{
                   localVariable = <U <self>>
@@ -2722,39 +2864,36 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"arg0" }
-                        value = Send{
-                          recv = UnresolvedConstantLit{
-                            scope = UnresolvedConstantLit{
-                              scope = EmptyTree
-                              cnst = <C <U T>>
-                            }
-                            cnst = <C <U Hash>>
-                          }
-                          fun = <U []>
-                          block = nullptr
-                          args = [
-                            UnresolvedConstantLit{
-                              scope = EmptyTree
-                              cnst = <C <U Symbol>>
-                            }
-                            UnresolvedConstantLit{
-                              scope = EmptyTree
-                              cnst = <C <U String>>
-                            }
-                          ]
-                        }
-                      ]
+                  Literal{ value = :"arg0" }
+                  Send{
+                    recv = UnresolvedConstantLit{
+                      scope = UnresolvedConstantLit{
+                        scope = EmptyTree
+                        cnst = <C <U T>>
+                      }
+                      cnst = <C <U Hash>>
+                    }
+                    fun = <U []>
+                    block = nullptr
+                    pos_args = 2
+                    args = [
+                      UnresolvedConstantLit{
+                        scope = EmptyTree
+                        cnst = <C <U Symbol>>
+                      }
+                      UnresolvedConstantLit{
+                        scope = EmptyTree
+                        cnst = <C <U String>>
+                      }
                     ]
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = UnresolvedConstantLit{
@@ -2766,6 +2905,7 @@ ClassDef{
                   }
                   fun = <U []>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     UnresolvedConstantLit{
                       scope = EmptyTree
@@ -2780,6 +2920,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -2808,6 +2949,7 @@ ClassDef{
                   }
                   fun = <U non_forcing_is_a?>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -2822,6 +2964,7 @@ ClassDef{
                   }
                   fun = <U soft_freeze_logic>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -2838,6 +2981,7 @@ ClassDef{
               }
               fun = <U instance_variable_set>
               block = nullptr
+              pos_args = 2
               args = [
                 Literal{ value = :"@hash_of" }
                 UnresolvedIdent{
@@ -2865,15 +3009,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -2882,6 +3024,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -2910,6 +3053,7 @@ ClassDef{
                   }
                   fun = <U instance_variable_get>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     Literal{ value = :"@const_explicit" }
                   ]
@@ -2924,16 +3068,19 @@ ClassDef{
                   }
                   fun = <U class>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U decorator>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
               fun = <U prop_get_logic>
               block = nullptr
+              pos_args = 3
               args = [
                 Local{
                   localVariable = <U <self>>
@@ -2964,15 +3111,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -2981,6 +3126,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -3009,6 +3155,7 @@ ClassDef{
                   }
                   fun = <U instance_variable_get>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     Literal{ value = :"@const" }
                   ]
@@ -3023,16 +3170,19 @@ ClassDef{
                   }
                   fun = <U class>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U decorator>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
               fun = <U prop_get_logic>
               block = nullptr
+              pos_args = 3
               args = [
                 Local{
                   localVariable = <U <self>>
@@ -3063,15 +3213,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -3080,6 +3228,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -3108,6 +3257,7 @@ ClassDef{
                   }
                   fun = <U instance_variable_get>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     Literal{ value = :"@enum_prop" }
                   ]
@@ -3122,16 +3272,19 @@ ClassDef{
                   }
                   fun = <U class>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U decorator>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
               fun = <U prop_get_logic>
               block = nullptr
+              pos_args = 3
               args = [
                 Local{
                   localVariable = <U <self>>
@@ -3162,22 +3315,18 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"arg0" }
-                        value = UnresolvedConstantLit{
-                          scope = EmptyTree
-                          cnst = <C <U String>>
-                        }
-                      ]
-                    ]
+                  Literal{ value = :"arg0" }
+                  UnresolvedConstantLit{
+                    scope = EmptyTree
+                    cnst = <C <U String>>
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -3186,6 +3335,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -3212,6 +3362,7 @@ ClassDef{
               }
               fun = <U unsafe>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -3221,6 +3372,7 @@ ClassDef{
             }
             fun = <U raise>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "Sorbet rewriter pass partially unimplemented" }
             ]
@@ -3243,15 +3395,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -3260,6 +3410,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -3288,6 +3439,7 @@ ClassDef{
                   }
                   fun = <U instance_variable_get>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     Literal{ value = :"@foreign" }
                   ]
@@ -3302,16 +3454,19 @@ ClassDef{
                   }
                   fun = <U class>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U decorator>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
               fun = <U prop_get_logic>
               block = nullptr
+              pos_args = 3
               args = [
                 Local{
                   localVariable = <U <self>>
@@ -3342,22 +3497,18 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"arg0" }
-                        value = UnresolvedConstantLit{
-                          scope = EmptyTree
-                          cnst = <C <U String>>
-                        }
-                      ]
-                    ]
+                  Literal{ value = :"arg0" }
+                  UnresolvedConstantLit{
+                    scope = EmptyTree
+                    cnst = <C <U String>>
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -3366,6 +3517,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -3394,6 +3546,7 @@ ClassDef{
                   }
                   fun = <U non_forcing_is_a?>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -3408,6 +3561,7 @@ ClassDef{
                   }
                   fun = <U soft_freeze_logic>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -3424,6 +3578,7 @@ ClassDef{
               }
               fun = <U instance_variable_set>
               block = nullptr
+              pos_args = 2
               args = [
                 Literal{ value = :"@foreign" }
                 UnresolvedIdent{
@@ -3451,28 +3606,25 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"opts" }
-                        value = Send{
-                          recv = ConstantLit{
-                            orig = nullptr
-                            symbol = ::T
-                          }
-                          fun = <U untyped>
-                          block = nullptr
-                          args = [
-                          ]
-                        }
-                      ]
+                  Literal{ value = :"opts" }
+                  Send{
+                    recv = ConstantLit{
+                      orig = nullptr
+                      symbol = ::T
+                    }
+                    fun = <U untyped>
+                    block = nullptr
+                    pos_args = 0
+                    args = [
                     ]
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = ConstantLit{
@@ -3481,6 +3633,7 @@ ClassDef{
                   }
                   fun = <U nilable>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     UnresolvedConstantLit{
                       scope = EmptyTree
@@ -3491,6 +3644,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -3517,6 +3671,7 @@ ClassDef{
               }
               fun = <U unsafe>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -3526,6 +3681,7 @@ ClassDef{
             }
             fun = <U raise>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "Sorbet rewriter pass partially unimplemented" }
             ]
@@ -3548,28 +3704,25 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"opts" }
-                        value = Send{
-                          recv = ConstantLit{
-                            orig = nullptr
-                            symbol = ::T
-                          }
-                          fun = <U untyped>
-                          block = nullptr
-                          args = [
-                          ]
-                        }
-                      ]
+                  Literal{ value = :"opts" }
+                  Send{
+                    recv = ConstantLit{
+                      orig = nullptr
+                      symbol = ::T
+                    }
+                    fun = <U untyped>
+                    block = nullptr
+                    pos_args = 0
+                    args = [
                     ]
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -3578,6 +3731,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -3604,6 +3758,7 @@ ClassDef{
               }
               fun = <U unsafe>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -3613,6 +3768,7 @@ ClassDef{
             }
             fun = <U raise>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "Sorbet rewriter pass partially unimplemented" }
             ]
@@ -3635,15 +3791,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -3652,6 +3806,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -3680,6 +3835,7 @@ ClassDef{
                   }
                   fun = <U instance_variable_get>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     Literal{ value = :"@foreign_lazy" }
                   ]
@@ -3694,16 +3850,19 @@ ClassDef{
                   }
                   fun = <U class>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U decorator>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
               fun = <U prop_get_logic>
               block = nullptr
+              pos_args = 3
               args = [
                 Local{
                   localVariable = <U <self>>
@@ -3734,22 +3893,18 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"arg0" }
-                        value = UnresolvedConstantLit{
-                          scope = EmptyTree
-                          cnst = <C <U String>>
-                        }
-                      ]
-                    ]
+                  Literal{ value = :"arg0" }
+                  UnresolvedConstantLit{
+                    scope = EmptyTree
+                    cnst = <C <U String>>
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -3758,6 +3913,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -3786,6 +3942,7 @@ ClassDef{
                   }
                   fun = <U non_forcing_is_a?>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -3800,6 +3957,7 @@ ClassDef{
                   }
                   fun = <U soft_freeze_logic>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -3816,6 +3974,7 @@ ClassDef{
               }
               fun = <U instance_variable_set>
               block = nullptr
+              pos_args = 2
               args = [
                 Literal{ value = :"@foreign_lazy" }
                 UnresolvedIdent{
@@ -3843,28 +4002,25 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"opts" }
-                        value = Send{
-                          recv = ConstantLit{
-                            orig = nullptr
-                            symbol = ::T
-                          }
-                          fun = <U untyped>
-                          block = nullptr
-                          args = [
-                          ]
-                        }
-                      ]
+                  Literal{ value = :"opts" }
+                  Send{
+                    recv = ConstantLit{
+                      orig = nullptr
+                      symbol = ::T
+                    }
+                    fun = <U untyped>
+                    block = nullptr
+                    pos_args = 0
+                    args = [
                     ]
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = ConstantLit{
@@ -3873,6 +4029,7 @@ ClassDef{
                   }
                   fun = <U nilable>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     UnresolvedConstantLit{
                       scope = EmptyTree
@@ -3883,6 +4040,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -3909,6 +4067,7 @@ ClassDef{
               }
               fun = <U unsafe>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -3918,6 +4077,7 @@ ClassDef{
             }
             fun = <U raise>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "Sorbet rewriter pass partially unimplemented" }
             ]
@@ -3940,28 +4100,25 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"opts" }
-                        value = Send{
-                          recv = ConstantLit{
-                            orig = nullptr
-                            symbol = ::T
-                          }
-                          fun = <U untyped>
-                          block = nullptr
-                          args = [
-                          ]
-                        }
-                      ]
+                  Literal{ value = :"opts" }
+                  Send{
+                    recv = ConstantLit{
+                      orig = nullptr
+                      symbol = ::T
+                    }
+                    fun = <U untyped>
+                    block = nullptr
+                    pos_args = 0
+                    args = [
                     ]
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -3970,6 +4127,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -3996,6 +4154,7 @@ ClassDef{
               }
               fun = <U unsafe>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -4005,6 +4164,7 @@ ClassDef{
             }
             fun = <U raise>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "Sorbet rewriter pass partially unimplemented" }
             ]
@@ -4027,15 +4187,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -4044,6 +4202,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -4072,6 +4231,7 @@ ClassDef{
                   }
                   fun = <U instance_variable_get>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     Literal{ value = :"@foreign_proc" }
                   ]
@@ -4086,16 +4246,19 @@ ClassDef{
                   }
                   fun = <U class>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U decorator>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
               fun = <U prop_get_logic>
               block = nullptr
+              pos_args = 3
               args = [
                 Local{
                   localVariable = <U <self>>
@@ -4126,22 +4289,18 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"arg0" }
-                        value = UnresolvedConstantLit{
-                          scope = EmptyTree
-                          cnst = <C <U String>>
-                        }
-                      ]
-                    ]
+                  Literal{ value = :"arg0" }
+                  UnresolvedConstantLit{
+                    scope = EmptyTree
+                    cnst = <C <U String>>
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -4150,6 +4309,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -4178,6 +4338,7 @@ ClassDef{
                   }
                   fun = <U non_forcing_is_a?>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -4192,6 +4353,7 @@ ClassDef{
                   }
                   fun = <U soft_freeze_logic>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -4208,6 +4370,7 @@ ClassDef{
               }
               fun = <U instance_variable_set>
               block = nullptr
+              pos_args = 2
               args = [
                 Literal{ value = :"@foreign_proc" }
                 UnresolvedIdent{
@@ -4235,28 +4398,25 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"opts" }
-                        value = Send{
-                          recv = ConstantLit{
-                            orig = nullptr
-                            symbol = ::T
-                          }
-                          fun = <U untyped>
-                          block = nullptr
-                          args = [
-                          ]
-                        }
-                      ]
+                  Literal{ value = :"opts" }
+                  Send{
+                    recv = ConstantLit{
+                      orig = nullptr
+                      symbol = ::T
+                    }
+                    fun = <U untyped>
+                    block = nullptr
+                    pos_args = 0
+                    args = [
                     ]
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = ConstantLit{
@@ -4265,6 +4425,7 @@ ClassDef{
                   }
                   fun = <U nilable>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     UnresolvedConstantLit{
                       scope = EmptyTree
@@ -4275,6 +4436,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -4301,6 +4463,7 @@ ClassDef{
               }
               fun = <U unsafe>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -4310,6 +4473,7 @@ ClassDef{
             }
             fun = <U raise>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "Sorbet rewriter pass partially unimplemented" }
             ]
@@ -4332,28 +4496,25 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"opts" }
-                        value = Send{
-                          recv = ConstantLit{
-                            orig = nullptr
-                            symbol = ::T
-                          }
-                          fun = <U untyped>
-                          block = nullptr
-                          args = [
-                          ]
-                        }
-                      ]
+                  Literal{ value = :"opts" }
+                  Send{
+                    recv = ConstantLit{
+                      orig = nullptr
+                      symbol = ::T
+                    }
+                    fun = <U untyped>
+                    block = nullptr
+                    pos_args = 0
+                    args = [
                     ]
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -4362,6 +4523,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -4388,6 +4550,7 @@ ClassDef{
               }
               fun = <U unsafe>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -4397,6 +4560,7 @@ ClassDef{
             }
             fun = <U raise>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "Sorbet rewriter pass partially unimplemented" }
             ]
@@ -4419,15 +4583,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -4436,6 +4598,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -4464,6 +4627,7 @@ ClassDef{
                   }
                   fun = <U instance_variable_get>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     Literal{ value = :"@foreign_invalid" }
                   ]
@@ -4478,16 +4642,19 @@ ClassDef{
                   }
                   fun = <U class>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U decorator>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
               fun = <U prop_get_logic>
               block = nullptr
+              pos_args = 3
               args = [
                 Local{
                   localVariable = <U <self>>
@@ -4518,22 +4685,18 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"arg0" }
-                        value = UnresolvedConstantLit{
-                          scope = EmptyTree
-                          cnst = <C <U String>>
-                        }
-                      ]
-                    ]
+                  Literal{ value = :"arg0" }
+                  UnresolvedConstantLit{
+                    scope = EmptyTree
+                    cnst = <C <U String>>
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -4542,6 +4705,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -4570,6 +4734,7 @@ ClassDef{
                   }
                   fun = <U non_forcing_is_a?>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -4584,6 +4749,7 @@ ClassDef{
                   }
                   fun = <U soft_freeze_logic>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -4600,6 +4766,7 @@ ClassDef{
               }
               fun = <U instance_variable_set>
               block = nullptr
+              pos_args = 2
               args = [
                 Literal{ value = :"@foreign_invalid" }
                 UnresolvedIdent{
@@ -4627,28 +4794,25 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"opts" }
-                        value = Send{
-                          recv = ConstantLit{
-                            orig = nullptr
-                            symbol = ::T
-                          }
-                          fun = <U untyped>
-                          block = nullptr
-                          args = [
-                          ]
-                        }
-                      ]
+                  Literal{ value = :"opts" }
+                  Send{
+                    recv = ConstantLit{
+                      orig = nullptr
+                      symbol = ::T
+                    }
+                    fun = <U untyped>
+                    block = nullptr
+                    pos_args = 0
+                    args = [
                     ]
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = ConstantLit{
@@ -4657,12 +4821,14 @@ ClassDef{
                   }
                   fun = <U untyped>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -4689,6 +4855,7 @@ ClassDef{
               }
               fun = <U unsafe>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -4698,6 +4865,7 @@ ClassDef{
             }
             fun = <U raise>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "Sorbet rewriter pass partially unimplemented" }
             ]
@@ -4720,28 +4888,25 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"opts" }
-                        value = Send{
-                          recv = ConstantLit{
-                            orig = nullptr
-                            symbol = ::T
-                          }
-                          fun = <U untyped>
-                          block = nullptr
-                          args = [
-                          ]
-                        }
-                      ]
+                  Literal{ value = :"opts" }
+                  Send{
+                    recv = ConstantLit{
+                      orig = nullptr
+                      symbol = ::T
+                    }
+                    fun = <U untyped>
+                    block = nullptr
+                    pos_args = 0
+                    args = [
                     ]
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = ConstantLit{
@@ -4750,12 +4915,14 @@ ClassDef{
                   }
                   fun = <U untyped>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -4782,6 +4949,7 @@ ClassDef{
               }
               fun = <U unsafe>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -4791,6 +4959,7 @@ ClassDef{
             }
             fun = <U raise>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "Sorbet rewriter pass partially unimplemented" }
             ]
@@ -4813,15 +4982,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -4830,6 +4997,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -4853,6 +5021,7 @@ ClassDef{
               }
               fun = <U unsafe>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -4862,6 +5031,7 @@ ClassDef{
             }
             fun = <U raise>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "Sorbet rewriter pass partially unimplemented" }
             ]
@@ -4884,22 +5054,18 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"arg0" }
-                        value = UnresolvedConstantLit{
-                          scope = EmptyTree
-                          cnst = <C <U String>>
-                        }
-                      ]
-                    ]
+                  Literal{ value = :"arg0" }
+                  UnresolvedConstantLit{
+                    scope = EmptyTree
+                    cnst = <C <U String>>
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -4908,6 +5074,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -4936,6 +5103,7 @@ ClassDef{
                   }
                   fun = <U non_forcing_is_a?>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -4950,6 +5118,7 @@ ClassDef{
                   }
                   fun = <U soft_freeze_logic>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -4966,6 +5135,7 @@ ClassDef{
               }
               fun = <U instance_variable_set>
               block = nullptr
+              pos_args = 2
               args = [
                 Literal{ value = :"@ifunset" }
                 UnresolvedIdent{
@@ -4993,15 +5163,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = UnresolvedConstantLit{
@@ -5010,6 +5178,7 @@ ClassDef{
                   }
                   fun = <U nilable>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     UnresolvedConstantLit{
                       scope = EmptyTree
@@ -5020,6 +5189,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -5043,6 +5213,7 @@ ClassDef{
               }
               fun = <U unsafe>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -5052,6 +5223,7 @@ ClassDef{
             }
             fun = <U raise>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "Sorbet rewriter pass partially unimplemented" }
             ]
@@ -5074,32 +5246,29 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"arg0" }
-                        value = Send{
-                          recv = UnresolvedConstantLit{
-                            scope = EmptyTree
-                            cnst = <C <U T>>
-                          }
-                          fun = <U nilable>
-                          block = nullptr
-                          args = [
-                            UnresolvedConstantLit{
-                              scope = EmptyTree
-                              cnst = <C <U String>>
-                            }
-                          ]
-                        }
-                      ]
+                  Literal{ value = :"arg0" }
+                  Send{
+                    recv = UnresolvedConstantLit{
+                      scope = EmptyTree
+                      cnst = <C <U T>>
+                    }
+                    fun = <U nilable>
+                    block = nullptr
+                    pos_args = 1
+                    args = [
+                      UnresolvedConstantLit{
+                        scope = EmptyTree
+                        cnst = <C <U String>>
+                      }
                     ]
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = UnresolvedConstantLit{
@@ -5108,6 +5277,7 @@ ClassDef{
                   }
                   fun = <U nilable>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     UnresolvedConstantLit{
                       scope = EmptyTree
@@ -5118,6 +5288,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -5146,6 +5317,7 @@ ClassDef{
                   }
                   fun = <U non_forcing_is_a?>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -5160,6 +5332,7 @@ ClassDef{
                   }
                   fun = <U soft_freeze_logic>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -5176,6 +5349,7 @@ ClassDef{
               }
               fun = <U instance_variable_set>
               block = nullptr
+              pos_args = 2
               args = [
                 Literal{ value = :"@ifunset_nilable" }
                 UnresolvedIdent{
@@ -5188,11 +5362,405 @@ ClassDef{
         }
 
         Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U sig>
+          block = Block {
+            args = [
+            ]
+            body = Send{
+              recv = Send{
+                recv = Local{
+                  localVariable = <U <self>>
+                }
+                fun = <U params>
+                block = nullptr
+                pos_args = 0
+                args = [
+                ]
+              }
+              fun = <U returns>
+              block = nullptr
+              pos_args = 1
+              args = [
+                UnresolvedConstantLit{
+                  scope = EmptyTree
+                  cnst = <C <U String>>
+                }
+              ]
+            }
+          }
+          pos_args = 1
+          args = [
+            ConstantLit{
+              orig = nullptr
+              symbol = ::T::Sig::WithoutRuntime
+            }
+          ]
+        }
+
+        MethodDef{
+          flags = {rewriter}
+          name = <U empty_hash_rules><<C <U <todo sym>>>>
+          args = [BlockArg{ expr = UnresolvedIdent{
+              kind = Local
+              name = <U <blk>>
+            } }]
+          rhs = InsSeq{
+            stats = [
+              Assign{
+                lhs = UnresolvedIdent{
+                  kind = Local
+                  name = <U arg2>
+                }
+                rhs = Send{
+                  recv = Local{
+                    localVariable = <U <self>>
+                  }
+                  fun = <U instance_variable_get>
+                  block = nullptr
+                  pos_args = 1
+                  args = [
+                    Literal{ value = :"@empty_hash_rules" }
+                  ]
+                }
+              }
+            ],
+            expr = Send{
+              recv = Send{
+                recv = Send{
+                  recv = Local{
+                    localVariable = <U <self>>
+                  }
+                  fun = <U class>
+                  block = nullptr
+                  pos_args = 0
+                  args = [
+                  ]
+                }
+                fun = <U decorator>
+                block = nullptr
+                pos_args = 0
+                args = [
+                ]
+              }
+              fun = <U prop_get_logic>
+              block = nullptr
+              pos_args = 3
+              args = [
+                Local{
+                  localVariable = <U <self>>
+                }
+                Literal{ value = :"empty_hash_rules" }
+                UnresolvedIdent{
+                  kind = Local
+                  name = <U arg2>
+                }
+              ]
+            }
+          }
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U sig>
+          block = Block {
+            args = [
+            ]
+            body = Send{
+              recv = Send{
+                recv = Local{
+                  localVariable = <U <self>>
+                }
+                fun = <U params>
+                block = nullptr
+                pos_args = 0
+                args = [
+                  Literal{ value = :"arg0" }
+                  UnresolvedConstantLit{
+                    scope = EmptyTree
+                    cnst = <C <U String>>
+                  }
+                ]
+              }
+              fun = <U returns>
+              block = nullptr
+              pos_args = 1
+              args = [
+                UnresolvedConstantLit{
+                  scope = EmptyTree
+                  cnst = <C <U String>>
+                }
+              ]
+            }
+          }
+          pos_args = 1
+          args = [
+            ConstantLit{
+              orig = nullptr
+              symbol = ::T::Sig::WithoutRuntime
+            }
+          ]
+        }
+
+        MethodDef{
+          flags = {rewriter}
+          name = <U empty_hash_rules=><<C <U <todo sym>>>>
+          args = [UnresolvedIdent{
+              kind = Local
+              name = <U arg0>
+            }, BlockArg{ expr = UnresolvedIdent{
+              kind = Local
+              name = <U <blk>>
+            } }]
+          rhs = InsSeq{
+            stats = [
+              If{
+                cond = Send{
+                  recv = ConstantLit{
+                    orig = nullptr
+                    symbol = ::T::NonForcingConstants
+                  }
+                  fun = <U non_forcing_is_a?>
+                  block = nullptr
+                  pos_args = 2
+                  args = [
+                    Local{
+                      localVariable = <U <self>>
+                    }
+                    Literal{ value = "::Chalk::ODM::Document" }
+                  ]
+                }
+                thenp = Send{
+                  recv = ConstantLit{
+                    orig = nullptr
+                    symbol = ::Chalk::ODM::DocumentDecoratorHelper
+                  }
+                  fun = <U soft_freeze_logic>
+                  block = nullptr
+                  pos_args = 2
+                  args = [
+                    Local{
+                      localVariable = <U <self>>
+                    }
+                    Literal{ value = :"empty_hash_rules" }
+                  ]
+                }
+                elsep = EmptyTree
+              }
+            ],
+            expr = Send{
+              recv = Local{
+                localVariable = <U <self>>
+              }
+              fun = <U instance_variable_set>
+              block = nullptr
+              pos_args = 2
+              args = [
+                Literal{ value = :"@empty_hash_rules" }
+                UnresolvedIdent{
+                  kind = Local
+                  name = <U arg0>
+                }
+              ]
+            }
+          }
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U sig>
+          block = Block {
+            args = [
+            ]
+            body = Send{
+              recv = Send{
+                recv = Local{
+                  localVariable = <U <self>>
+                }
+                fun = <U params>
+                block = nullptr
+                pos_args = 0
+                args = [
+                ]
+              }
+              fun = <U returns>
+              block = nullptr
+              pos_args = 1
+              args = [
+                UnresolvedConstantLit{
+                  scope = EmptyTree
+                  cnst = <C <U String>>
+                }
+              ]
+            }
+          }
+          pos_args = 1
+          args = [
+            ConstantLit{
+              orig = nullptr
+              symbol = ::T::Sig::WithoutRuntime
+            }
+          ]
+        }
+
+        MethodDef{
+          flags = {rewriter}
+          name = <U hash_rules><<C <U <todo sym>>>>
+          args = [BlockArg{ expr = UnresolvedIdent{
+              kind = Local
+              name = <U <blk>>
+            } }]
+          rhs = InsSeq{
+            stats = [
+              Assign{
+                lhs = UnresolvedIdent{
+                  kind = Local
+                  name = <U arg2>
+                }
+                rhs = Send{
+                  recv = Local{
+                    localVariable = <U <self>>
+                  }
+                  fun = <U instance_variable_get>
+                  block = nullptr
+                  pos_args = 1
+                  args = [
+                    Literal{ value = :"@hash_rules" }
+                  ]
+                }
+              }
+            ],
+            expr = Send{
+              recv = Send{
+                recv = Send{
+                  recv = Local{
+                    localVariable = <U <self>>
+                  }
+                  fun = <U class>
+                  block = nullptr
+                  pos_args = 0
+                  args = [
+                  ]
+                }
+                fun = <U decorator>
+                block = nullptr
+                pos_args = 0
+                args = [
+                ]
+              }
+              fun = <U prop_get_logic>
+              block = nullptr
+              pos_args = 3
+              args = [
+                Local{
+                  localVariable = <U <self>>
+                }
+                Literal{ value = :"hash_rules" }
+                UnresolvedIdent{
+                  kind = Local
+                  name = <U arg2>
+                }
+              ]
+            }
+          }
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U sig>
+          block = Block {
+            args = [
+            ]
+            body = Send{
+              recv = Send{
+                recv = Local{
+                  localVariable = <U <self>>
+                }
+                fun = <U params>
+                block = nullptr
+                pos_args = 0
+                args = [
+                  Literal{ value = :"arg0" }
+                  UnresolvedConstantLit{
+                    scope = EmptyTree
+                    cnst = <C <U String>>
+                  }
+                ]
+              }
+              fun = <U returns>
+              block = nullptr
+              pos_args = 1
+              args = [
+                UnresolvedConstantLit{
+                  scope = EmptyTree
+                  cnst = <C <U String>>
+                }
+              ]
+            }
+          }
+          pos_args = 1
+          args = [
+            ConstantLit{
+              orig = nullptr
+              symbol = ::T::Sig::WithoutRuntime
+            }
+          ]
+        }
+
+        MethodDef{
+          flags = {rewriter}
+          name = <U hash_rules=><<C <U <todo sym>>>>
+          args = [UnresolvedIdent{
+              kind = Local
+              name = <U arg0>
+            }, BlockArg{ expr = UnresolvedIdent{
+              kind = Local
+              name = <U <blk>>
+            } }]
+          rhs = Send{
+            recv = Send{
+              recv = ConstantLit{
+                orig = nullptr
+                symbol = ::T
+              }
+              fun = <U unsafe>
+              block = nullptr
+              pos_args = 1
+              args = [
+                ConstantLit{
+                  orig = nullptr
+                  symbol = ::Kernel
+                }
+              ]
+            }
+            fun = <U raise>
+            block = nullptr
+            pos_args = 1
+            args = [
+              Literal{ value = "Sorbet rewriter pass partially unimplemented" }
+            ]
+          }
+        }
+
+        Send{
           recv = Local{
             localVariable = <U <self>>
           }
           fun = <U include>
           block = nullptr
+          pos_args = 1
           args = [
             UnresolvedConstantLit{
               scope = UnresolvedConstantLit{
@@ -5210,24 +5778,17 @@ ClassDef{
           }
           fun = <U prop>
           block = nullptr
+          pos_args = 2
           args = [
             Literal{ value = :"default" }
             UnresolvedConstantLit{
               scope = EmptyTree
               cnst = <C <U String>>
             }
-            Hash{
-              pairs = [
-                [
-                  key = Literal{ value = :"default" }
-                  value = Literal{ value = "" }
-                ]
-                [
-                  key = Literal{ value = :"without_accessors" }
-                  value = Literal{ value = true }
-                ]
-              ]
-            }
+            Literal{ value = :"default" }
+            Literal{ value = "" }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
           ]
         }
 
@@ -5238,6 +5799,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -5253,6 +5815,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -5267,6 +5830,7 @@ ClassDef{
           }
           fun = <U prop>
           block = nullptr
+          pos_args = 2
           args = [
             Literal{ value = :"t_nilable" }
             Send{
@@ -5276,6 +5840,7 @@ ClassDef{
               }
               fun = <U nilable>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -5283,14 +5848,8 @@ ClassDef{
                 }
               ]
             }
-            Hash{
-              pairs = [
-                [
-                  key = Literal{ value = :"without_accessors" }
-                  value = Literal{ value = true }
-                ]
-              ]
-            }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
           ]
         }
 
@@ -5301,6 +5860,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -5316,6 +5876,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -5330,20 +5891,15 @@ ClassDef{
           }
           fun = <U prop>
           block = nullptr
+          pos_args = 2
           args = [
             Literal{ value = :"array" }
             UnresolvedConstantLit{
               scope = EmptyTree
               cnst = <C <U Array>>
             }
-            Hash{
-              pairs = [
-                [
-                  key = Literal{ value = :"without_accessors" }
-                  value = Literal{ value = true }
-                ]
-              ]
-            }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
           ]
         }
 
@@ -5354,6 +5910,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -5369,6 +5926,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -5383,6 +5941,7 @@ ClassDef{
           }
           fun = <U prop>
           block = nullptr
+          pos_args = 2
           args = [
             Literal{ value = :"t_array" }
             Send{
@@ -5395,6 +5954,7 @@ ClassDef{
               }
               fun = <U []>
               block = nullptr
+              pos_args = 1
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -5402,14 +5962,8 @@ ClassDef{
                 }
               ]
             }
-            Hash{
-              pairs = [
-                [
-                  key = Literal{ value = :"without_accessors" }
-                  value = Literal{ value = true }
-                ]
-              ]
-            }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
           ]
         }
 
@@ -5420,6 +5974,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -5435,6 +5990,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -5449,6 +6005,7 @@ ClassDef{
           }
           fun = <U prop>
           block = nullptr
+          pos_args = 2
           args = [
             Literal{ value = :"hash_of" }
             Send{
@@ -5461,6 +6018,7 @@ ClassDef{
               }
               fun = <U []>
               block = nullptr
+              pos_args = 2
               args = [
                 UnresolvedConstantLit{
                   scope = EmptyTree
@@ -5472,14 +6030,8 @@ ClassDef{
                 }
               ]
             }
-            Hash{
-              pairs = [
-                [
-                  key = Literal{ value = :"without_accessors" }
-                  value = Literal{ value = true }
-                ]
-              ]
-            }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
           ]
         }
 
@@ -5490,6 +6042,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -5505,6 +6058,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -5519,24 +6073,17 @@ ClassDef{
           }
           fun = <U prop>
           block = nullptr
+          pos_args = 2
           args = [
             Literal{ value = :"const_explicit" }
             UnresolvedConstantLit{
               scope = EmptyTree
               cnst = <C <U String>>
             }
-            Hash{
-              pairs = [
-                [
-                  key = Literal{ value = :"immutable" }
-                  value = Literal{ value = true }
-                ]
-                [
-                  key = Literal{ value = :"without_accessors" }
-                  value = Literal{ value = true }
-                ]
-              ]
-            }
+            Literal{ value = :"immutable" }
+            Literal{ value = true }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
           ]
         }
 
@@ -5547,6 +6094,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -5561,8 +6109,600 @@ ClassDef{
           }
           fun = <U const>
           block = nullptr
+          pos_args = 2
           args = [
             Literal{ value = :"const" }
+            UnresolvedConstantLit{
+              scope = EmptyTree
+              cnst = <C <U String>>
+            }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"const" }
+          ]
+        }
+
+        Send{
+          recv = Local{
+            localVariable = <U <self>>
+          }
+          fun = <U prop>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Literal{ value = :"enum_prop" }
+            UnresolvedConstantLit{
+              scope = EmptyTree
+              cnst = <C <U String>>
+            }
+            Literal{ value = :"enum" }
+            Array{
+              elems = [
+                Literal{ value = "hello" }
+                Literal{ value = "goodbye" }
+              ]
+            }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"enum_prop" }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"enum_prop=" }
+          ]
+        }
+
+        Send{
+          recv = Local{
+            localVariable = <U <self>>
+          }
+          fun = <U prop>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Literal{ value = :"foreign" }
+            UnresolvedConstantLit{
+              scope = EmptyTree
+              cnst = <C <U String>>
+            }
+            Literal{ value = :"foreign" }
+            UnresolvedConstantLit{
+              scope = EmptyTree
+              cnst = <C <U ForeignClass>>
+            }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"foreign" }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"foreign=" }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"foreign_" }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"foreign_!" }
+          ]
+        }
+
+        Send{
+          recv = Local{
+            localVariable = <U <self>>
+          }
+          fun = <U prop>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Literal{ value = :"foreign_lazy" }
+            UnresolvedConstantLit{
+              scope = EmptyTree
+              cnst = <C <U String>>
+            }
+            Literal{ value = :"foreign" }
+            Send{
+              recv = UnresolvedConstantLit{
+                scope = EmptyTree
+                cnst = <C <U Kernel>>
+              }
+              fun = <U lambda>
+              block = Block {
+                args = [
+                ]
+                body = UnresolvedConstantLit{
+                  scope = EmptyTree
+                  cnst = <C <U ForeignClass>>
+                }
+              }
+              pos_args = 0
+              args = [
+              ]
+            }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"foreign_lazy" }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"foreign_lazy=" }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"foreign_lazy_" }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"foreign_lazy_!" }
+          ]
+        }
+
+        Send{
+          recv = Local{
+            localVariable = <U <self>>
+          }
+          fun = <U prop>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Literal{ value = :"foreign_proc" }
+            UnresolvedConstantLit{
+              scope = EmptyTree
+              cnst = <C <U String>>
+            }
+            Literal{ value = :"foreign" }
+            Send{
+              recv = Local{
+                localVariable = <U <self>>
+              }
+              fun = <U proc>
+              block = Block {
+                args = [
+                ]
+                body = UnresolvedConstantLit{
+                  scope = EmptyTree
+                  cnst = <C <U ForeignClass>>
+                }
+              }
+              pos_args = 0
+              args = [
+              ]
+            }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"foreign_proc" }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"foreign_proc=" }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"foreign_proc_" }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"foreign_proc_!" }
+          ]
+        }
+
+        Send{
+          recv = Local{
+            localVariable = <U <self>>
+          }
+          fun = <U prop>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Literal{ value = :"foreign_invalid" }
+            UnresolvedConstantLit{
+              scope = EmptyTree
+              cnst = <C <U String>>
+            }
+            Literal{ value = :"foreign" }
+            Send{
+              recv = Local{
+                localVariable = <U <self>>
+              }
+              fun = <U proc>
+              block = Block {
+                args = [
+                ]
+                body = Literal{ value = :"not_a_type" }
+              }
+              pos_args = 0
+              args = [
+              ]
+            }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"foreign_invalid" }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"foreign_invalid=" }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"foreign_invalid_" }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"foreign_invalid_!" }
+          ]
+        }
+
+        Send{
+          recv = Local{
+            localVariable = <U <self>>
+          }
+          fun = <U prop>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Literal{ value = :"ifunset" }
+            UnresolvedConstantLit{
+              scope = EmptyTree
+              cnst = <C <U String>>
+            }
+            Literal{ value = :"ifunset" }
+            Literal{ value = "" }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"ifunset" }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"ifunset=" }
+          ]
+        }
+
+        Send{
+          recv = Local{
+            localVariable = <U <self>>
+          }
+          fun = <U prop>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Literal{ value = :"ifunset_nilable" }
+            Send{
+              recv = UnresolvedConstantLit{
+                scope = EmptyTree
+                cnst = <C <U T>>
+              }
+              fun = <U nilable>
+              block = nullptr
+              pos_args = 1
+              args = [
+                UnresolvedConstantLit{
+                  scope = EmptyTree
+                  cnst = <C <U String>>
+                }
+              ]
+            }
+            Literal{ value = :"ifunset" }
+            Literal{ value = "" }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"ifunset_nilable" }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"ifunset_nilable=" }
+          ]
+        }
+
+        Send{
+          recv = Local{
+            localVariable = <U <self>>
+          }
+          fun = <U prop>
+          block = nullptr
+          pos_args = 3
+          args = [
+            Literal{ value = :"empty_hash_rules" }
             UnresolvedConstantLit{
               scope = EmptyTree
               cnst = <C <U String>>
@@ -5585,11 +6725,28 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
             }
-            Literal{ value = :"const" }
+            Literal{ value = :"empty_hash_rules" }
+          ]
+        }
+
+        Send{
+          recv = ConstantLit{
+            orig = nullptr
+            symbol = ::Sorbet::Private::Static
+          }
+          fun = <U keep_def>
+          block = nullptr
+          pos_args = 2
+          args = [
+            Local{
+              localVariable = <U <self>>
+            }
+            Literal{ value = :"empty_hash_rules=" }
           ]
         }
 
@@ -5599,8 +6756,9 @@ ClassDef{
           }
           fun = <U prop>
           block = nullptr
+          pos_args = 3
           args = [
-            Literal{ value = :"enum_prop" }
+            Literal{ value = :"hash_rules" }
             UnresolvedConstantLit{
               scope = EmptyTree
               cnst = <C <U String>>
@@ -5632,11 +6790,12 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
             }
-            Literal{ value = :"enum_prop" }
+            Literal{ value = :"hash_rules" }
           ]
         }
 
@@ -5647,529 +6806,12 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
             }
-            Literal{ value = :"enum_prop=" }
-          ]
-        }
-
-        Send{
-          recv = Local{
-            localVariable = <U <self>>
-          }
-          fun = <U prop>
-          block = nullptr
-          args = [
-            Literal{ value = :"foreign" }
-            UnresolvedConstantLit{
-              scope = EmptyTree
-              cnst = <C <U String>>
-            }
-            Hash{
-              pairs = [
-                [
-                  key = Literal{ value = :"foreign" }
-                  value = UnresolvedConstantLit{
-                    scope = EmptyTree
-                    cnst = <C <U ForeignClass>>
-                  }
-                ]
-                [
-                  key = Literal{ value = :"without_accessors" }
-                  value = Literal{ value = true }
-                ]
-              ]
-            }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"foreign" }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"foreign=" }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"foreign_" }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"foreign_!" }
-          ]
-        }
-
-        Send{
-          recv = Local{
-            localVariable = <U <self>>
-          }
-          fun = <U prop>
-          block = nullptr
-          args = [
-            Literal{ value = :"foreign_lazy" }
-            UnresolvedConstantLit{
-              scope = EmptyTree
-              cnst = <C <U String>>
-            }
-            Hash{
-              pairs = [
-                [
-                  key = Literal{ value = :"foreign" }
-                  value = Send{
-                    recv = UnresolvedConstantLit{
-                      scope = EmptyTree
-                      cnst = <C <U Kernel>>
-                    }
-                    fun = <U lambda>
-                    block = Block {
-                      args = [
-                      ]
-                      body = UnresolvedConstantLit{
-                        scope = EmptyTree
-                        cnst = <C <U ForeignClass>>
-                      }
-                    }
-                    args = [
-                    ]
-                  }
-                ]
-                [
-                  key = Literal{ value = :"without_accessors" }
-                  value = Literal{ value = true }
-                ]
-              ]
-            }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"foreign_lazy" }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"foreign_lazy=" }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"foreign_lazy_" }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"foreign_lazy_!" }
-          ]
-        }
-
-        Send{
-          recv = Local{
-            localVariable = <U <self>>
-          }
-          fun = <U prop>
-          block = nullptr
-          args = [
-            Literal{ value = :"foreign_proc" }
-            UnresolvedConstantLit{
-              scope = EmptyTree
-              cnst = <C <U String>>
-            }
-            Hash{
-              pairs = [
-                [
-                  key = Literal{ value = :"foreign" }
-                  value = Send{
-                    recv = Local{
-                      localVariable = <U <self>>
-                    }
-                    fun = <U proc>
-                    block = Block {
-                      args = [
-                      ]
-                      body = UnresolvedConstantLit{
-                        scope = EmptyTree
-                        cnst = <C <U ForeignClass>>
-                      }
-                    }
-                    args = [
-                    ]
-                  }
-                ]
-                [
-                  key = Literal{ value = :"without_accessors" }
-                  value = Literal{ value = true }
-                ]
-              ]
-            }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"foreign_proc" }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"foreign_proc=" }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"foreign_proc_" }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"foreign_proc_!" }
-          ]
-        }
-
-        Send{
-          recv = Local{
-            localVariable = <U <self>>
-          }
-          fun = <U prop>
-          block = nullptr
-          args = [
-            Literal{ value = :"foreign_invalid" }
-            UnresolvedConstantLit{
-              scope = EmptyTree
-              cnst = <C <U String>>
-            }
-            Hash{
-              pairs = [
-                [
-                  key = Literal{ value = :"foreign" }
-                  value = Send{
-                    recv = Local{
-                      localVariable = <U <self>>
-                    }
-                    fun = <U proc>
-                    block = Block {
-                      args = [
-                      ]
-                      body = Literal{ value = :"not_a_type" }
-                    }
-                    args = [
-                    ]
-                  }
-                ]
-                [
-                  key = Literal{ value = :"without_accessors" }
-                  value = Literal{ value = true }
-                ]
-              ]
-            }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"foreign_invalid" }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"foreign_invalid=" }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"foreign_invalid_" }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"foreign_invalid_!" }
-          ]
-        }
-
-        Send{
-          recv = Local{
-            localVariable = <U <self>>
-          }
-          fun = <U prop>
-          block = nullptr
-          args = [
-            Literal{ value = :"ifunset" }
-            UnresolvedConstantLit{
-              scope = EmptyTree
-              cnst = <C <U String>>
-            }
-            Hash{
-              pairs = [
-                [
-                  key = Literal{ value = :"ifunset" }
-                  value = Literal{ value = "" }
-                ]
-                [
-                  key = Literal{ value = :"without_accessors" }
-                  value = Literal{ value = true }
-                ]
-              ]
-            }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"ifunset" }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"ifunset=" }
-          ]
-        }
-
-        Send{
-          recv = Local{
-            localVariable = <U <self>>
-          }
-          fun = <U prop>
-          block = nullptr
-          args = [
-            Literal{ value = :"ifunset_nilable" }
-            Send{
-              recv = UnresolvedConstantLit{
-                scope = EmptyTree
-                cnst = <C <U T>>
-              }
-              fun = <U nilable>
-              block = nullptr
-              args = [
-                UnresolvedConstantLit{
-                  scope = EmptyTree
-                  cnst = <C <U String>>
-                }
-              ]
-            }
-            Hash{
-              pairs = [
-                [
-                  key = Literal{ value = :"ifunset" }
-                  value = Literal{ value = "" }
-                ]
-                [
-                  key = Literal{ value = :"without_accessors" }
-                  value = Literal{ value = true }
-                ]
-              ]
-            }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"ifunset_nilable" }
-          ]
-        }
-
-        Send{
-          recv = ConstantLit{
-            orig = nullptr
-            symbol = ::Sorbet::Private::Static
-          }
-          fun = <U keep_def>
-          block = nullptr
-          args = [
-            Local{
-              localVariable = <U <self>>
-            }
-            Literal{ value = :"ifunset_nilable=" }
+            Literal{ value = :"hash_rules=" }
           ]
         }
       ]
@@ -6240,15 +6882,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -6257,6 +6897,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -6285,6 +6926,7 @@ ClassDef{
                   }
                   fun = <U instance_variable_get>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     Literal{ value = :"@token" }
                   ]
@@ -6299,16 +6941,19 @@ ClassDef{
                   }
                   fun = <U class>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U decorator>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
               fun = <U prop_get_logic>
               block = nullptr
+              pos_args = 3
               args = [
                 Local{
                   localVariable = <U <self>>
@@ -6339,22 +6984,18 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"arg0" }
-                        value = ConstantLit{
-                          orig = nullptr
-                          symbol = ::String
-                        }
-                      ]
-                    ]
+                  Literal{ value = :"arg0" }
+                  ConstantLit{
+                    orig = nullptr
+                    symbol = ::String
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -6363,6 +7004,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -6391,6 +7033,7 @@ ClassDef{
                   }
                   fun = <U non_forcing_is_a?>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -6405,6 +7048,7 @@ ClassDef{
                   }
                   fun = <U soft_freeze_logic>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -6421,6 +7065,7 @@ ClassDef{
               }
               fun = <U instance_variable_set>
               block = nullptr
+              pos_args = 2
               args = [
                 Literal{ value = :"@token" }
                 UnresolvedIdent{
@@ -6448,15 +7093,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -6465,6 +7108,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -6493,6 +7137,7 @@ ClassDef{
                   }
                   fun = <U instance_variable_get>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     Literal{ value = :"@created" }
                   ]
@@ -6507,16 +7152,19 @@ ClassDef{
                   }
                   fun = <U class>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U decorator>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
               fun = <U prop_get_logic>
               block = nullptr
+              pos_args = 3
               args = [
                 Local{
                   localVariable = <U <self>>
@@ -6547,22 +7195,18 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"arg0" }
-                        value = ConstantLit{
-                          orig = nullptr
-                          symbol = ::Float
-                        }
-                      ]
-                    ]
+                  Literal{ value = :"arg0" }
+                  ConstantLit{
+                    orig = nullptr
+                    symbol = ::Float
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -6571,6 +7215,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -6599,6 +7244,7 @@ ClassDef{
                   }
                   fun = <U non_forcing_is_a?>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -6613,6 +7259,7 @@ ClassDef{
                   }
                   fun = <U soft_freeze_logic>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -6629,6 +7276,7 @@ ClassDef{
               }
               fun = <U instance_variable_set>
               block = nullptr
+              pos_args = 2
               args = [
                 Literal{ value = :"@created" }
                 UnresolvedIdent{
@@ -6646,6 +7294,7 @@ ClassDef{
           }
           fun = <U include>
           block = nullptr
+          pos_args = 1
           args = [
             UnresolvedConstantLit{
               scope = UnresolvedConstantLit{
@@ -6664,6 +7313,7 @@ ClassDef{
           }
           fun = <U keep_self_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -6679,6 +7329,7 @@ ClassDef{
           }
           fun = <U keep_self_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -6693,15 +7344,10 @@ ClassDef{
           }
           fun = <U token_prop>
           block = nullptr
+          pos_args = 0
           args = [
-            Hash{
-              pairs = [
-                [
-                  key = Literal{ value = :"without_accessors" }
-                  value = Literal{ value = true }
-                ]
-              ]
-            }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
           ]
         }
 
@@ -6712,6 +7358,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -6727,6 +7374,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -6741,15 +7389,10 @@ ClassDef{
           }
           fun = <U created_prop>
           block = nullptr
+          pos_args = 0
           args = [
-            Hash{
-              pairs = [
-                [
-                  key = Literal{ value = :"without_accessors" }
-                  value = Literal{ value = true }
-                ]
-              ]
-            }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
           ]
         }
 
@@ -6760,6 +7403,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -6775,6 +7419,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -6850,15 +7495,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -6867,6 +7510,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -6895,6 +7539,7 @@ ClassDef{
                   }
                   fun = <U instance_variable_get>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     Literal{ value = :"@token" }
                   ]
@@ -6909,16 +7554,19 @@ ClassDef{
                   }
                   fun = <U class>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U decorator>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
               fun = <U prop_get_logic>
               block = nullptr
+              pos_args = 3
               args = [
                 Local{
                   localVariable = <U <self>>
@@ -6949,22 +7597,18 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"arg0" }
-                        value = ConstantLit{
-                          orig = nullptr
-                          symbol = ::String
-                        }
-                      ]
-                    ]
+                  Literal{ value = :"arg0" }
+                  ConstantLit{
+                    orig = nullptr
+                    symbol = ::String
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -6973,6 +7617,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -7001,6 +7646,7 @@ ClassDef{
                   }
                   fun = <U non_forcing_is_a?>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -7015,6 +7661,7 @@ ClassDef{
                   }
                   fun = <U soft_freeze_logic>
                   block = nullptr
+                  pos_args = 2
                   args = [
                     Local{
                       localVariable = <U <self>>
@@ -7031,6 +7678,7 @@ ClassDef{
               }
               fun = <U instance_variable_set>
               block = nullptr
+              pos_args = 2
               args = [
                 Literal{ value = :"@token" }
                 UnresolvedIdent{
@@ -7058,15 +7706,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -7075,6 +7721,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -7103,6 +7750,7 @@ ClassDef{
                   }
                   fun = <U instance_variable_get>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     Literal{ value = :"@created" }
                   ]
@@ -7117,16 +7765,19 @@ ClassDef{
                   }
                   fun = <U class>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U decorator>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
               fun = <U prop_get_logic>
               block = nullptr
+              pos_args = 3
               args = [
                 Local{
                   localVariable = <U <self>>
@@ -7147,6 +7798,7 @@ ClassDef{
           }
           fun = <U include>
           block = nullptr
+          pos_args = 1
           args = [
             UnresolvedConstantLit{
               scope = UnresolvedConstantLit{
@@ -7165,6 +7817,7 @@ ClassDef{
           }
           fun = <U keep_self_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -7180,6 +7833,7 @@ ClassDef{
           }
           fun = <U keep_self_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -7194,15 +7848,10 @@ ClassDef{
           }
           fun = <U timestamped_token_prop>
           block = nullptr
+          pos_args = 0
           args = [
-            Hash{
-              pairs = [
-                [
-                  key = Literal{ value = :"without_accessors" }
-                  value = Literal{ value = true }
-                ]
-              ]
-            }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
           ]
         }
 
@@ -7213,6 +7862,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -7228,6 +7878,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -7242,19 +7893,12 @@ ClassDef{
           }
           fun = <U created_prop>
           block = nullptr
+          pos_args = 0
           args = [
-            Hash{
-              pairs = [
-                [
-                  key = Literal{ value = :"immutable" }
-                  value = Literal{ value = true }
-                ]
-                [
-                  key = Literal{ value = :"without_accessors" }
-                  value = Literal{ value = true }
-                ]
-              ]
-            }
+            Literal{ value = :"immutable" }
+            Literal{ value = true }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
           ]
         }
 
@@ -7265,6 +7909,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -7321,15 +7966,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -7338,6 +7981,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -7366,6 +8010,7 @@ ClassDef{
                   }
                   fun = <U instance_variable_get>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     Literal{ value = :"@merchant" }
                   ]
@@ -7380,16 +8025,19 @@ ClassDef{
                   }
                   fun = <U class>
                   block = nullptr
+                  pos_args = 0
                   args = [
                   ]
                 }
                 fun = <U decorator>
                 block = nullptr
+                pos_args = 0
                 args = [
                 ]
               }
               fun = <U prop_get_logic>
               block = nullptr
+              pos_args = 3
               args = [
                 Local{
                   localVariable = <U <self>>
@@ -7410,6 +8058,7 @@ ClassDef{
           }
           fun = <U include>
           block = nullptr
+          pos_args = 1
           args = [
             UnresolvedConstantLit{
               scope = UnresolvedConstantLit{
@@ -7428,6 +8077,7 @@ ClassDef{
           }
           fun = <U keep_self_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -7442,15 +8092,10 @@ ClassDef{
           }
           fun = <U merchant_prop>
           block = nullptr
+          pos_args = 0
           args = [
-            Hash{
-              pairs = [
-                [
-                  key = Literal{ value = :"without_accessors" }
-                  value = Literal{ value = true }
-                ]
-              ]
-            }
+            Literal{ value = :"without_accessors" }
+            Literal{ value = true }
           ]
         }
 
@@ -7461,6 +8106,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -7517,15 +8163,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = ConstantLit{
@@ -7534,6 +8178,7 @@ ClassDef{
                   }
                   fun = <U nilable>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     ConstantLit{
                       orig = nullptr
@@ -7544,6 +8189,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -7567,6 +8213,7 @@ ClassDef{
               }
               fun = <U unsafe>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -7576,6 +8223,7 @@ ClassDef{
             }
             fun = <U raise>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "Sorbet rewriter pass partially unimplemented" }
             ]
@@ -7598,15 +8246,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = ConstantLit{
@@ -7615,6 +8261,7 @@ ClassDef{
                   }
                   fun = <U nilable>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     UnresolvedConstantLit{
                       scope = UnresolvedConstantLit{
@@ -7640,6 +8287,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -7663,6 +8311,7 @@ ClassDef{
               }
               fun = <U unsafe>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -7672,6 +8321,7 @@ ClassDef{
             }
             fun = <U raise>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "Sorbet rewriter pass partially unimplemented" }
             ]
@@ -7694,32 +8344,29 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"arg0" }
-                        value = Send{
-                          recv = ConstantLit{
-                            orig = nullptr
-                            symbol = ::T
-                          }
-                          fun = <U nilable>
-                          block = nullptr
-                          args = [
-                            ConstantLit{
-                              orig = nullptr
-                              symbol = ::String
-                            }
-                          ]
-                        }
-                      ]
+                  Literal{ value = :"arg0" }
+                  Send{
+                    recv = ConstantLit{
+                      orig = nullptr
+                      symbol = ::T
+                    }
+                    fun = <U nilable>
+                    block = nullptr
+                    pos_args = 1
+                    args = [
+                      ConstantLit{
+                        orig = nullptr
+                        symbol = ::String
+                      }
                     ]
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = ConstantLit{
@@ -7728,6 +8375,7 @@ ClassDef{
                   }
                   fun = <U nilable>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     ConstantLit{
                       orig = nullptr
@@ -7738,6 +8386,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -7764,6 +8413,7 @@ ClassDef{
               }
               fun = <U unsafe>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -7773,6 +8423,7 @@ ClassDef{
             }
             fun = <U raise>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "Sorbet rewriter pass partially unimplemented" }
             ]
@@ -7795,47 +8446,44 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                      [
-                        key = Literal{ value = :"arg0" }
-                        value = Send{
-                          recv = ConstantLit{
-                            orig = nullptr
-                            symbol = ::T
-                          }
-                          fun = <U nilable>
-                          block = nullptr
-                          args = [
-                            UnresolvedConstantLit{
+                  Literal{ value = :"arg0" }
+                  Send{
+                    recv = ConstantLit{
+                      orig = nullptr
+                      symbol = ::T
+                    }
+                    fun = <U nilable>
+                    block = nullptr
+                    pos_args = 1
+                    args = [
+                      UnresolvedConstantLit{
+                        scope = UnresolvedConstantLit{
+                          scope = UnresolvedConstantLit{
+                            scope = UnresolvedConstantLit{
                               scope = UnresolvedConstantLit{
                                 scope = UnresolvedConstantLit{
-                                  scope = UnresolvedConstantLit{
-                                    scope = UnresolvedConstantLit{
-                                      scope = UnresolvedConstantLit{
-                                        scope = EmptyTree
-                                        cnst = <C <U Opus>>
-                                      }
-                                      cnst = <C <U DB>>
-                                    }
-                                    cnst = <C <U Model>>
-                                  }
-                                  cnst = <C <U Mixins>>
+                                  scope = EmptyTree
+                                  cnst = <C <U Opus>>
                                 }
-                                cnst = <C <U Encryptable>>
+                                cnst = <C <U DB>>
                               }
-                              cnst = <C <U EncryptedValue>>
+                              cnst = <C <U Model>>
                             }
-                          ]
+                            cnst = <C <U Mixins>>
+                          }
+                          cnst = <C <U Encryptable>>
                         }
-                      ]
+                        cnst = <C <U EncryptedValue>>
+                      }
                     ]
                   }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = ConstantLit{
@@ -7844,6 +8492,7 @@ ClassDef{
                   }
                   fun = <U nilable>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     UnresolvedConstantLit{
                       scope = UnresolvedConstantLit{
@@ -7869,6 +8518,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -7895,6 +8545,7 @@ ClassDef{
               }
               fun = <U unsafe>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -7904,6 +8555,7 @@ ClassDef{
             }
             fun = <U raise>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "Sorbet rewriter pass partially unimplemented" }
             ]
@@ -7926,15 +8578,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = ConstantLit{
@@ -7943,6 +8593,7 @@ ClassDef{
                   }
                   fun = <U nilable>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     ConstantLit{
                       orig = nullptr
@@ -7953,6 +8604,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -7976,6 +8628,7 @@ ClassDef{
               }
               fun = <U unsafe>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -7985,6 +8638,7 @@ ClassDef{
             }
             fun = <U raise>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "Sorbet rewriter pass partially unimplemented" }
             ]
@@ -8007,15 +8661,13 @@ ClassDef{
                 }
                 fun = <U params>
                 block = nullptr
+                pos_args = 0
                 args = [
-                  Hash{
-                    pairs = [
-                    ]
-                  }
                 ]
               }
               fun = <U returns>
               block = nullptr
+              pos_args = 1
               args = [
                 Send{
                   recv = ConstantLit{
@@ -8024,6 +8676,7 @@ ClassDef{
                   }
                   fun = <U nilable>
                   block = nullptr
+                  pos_args = 1
                   args = [
                     UnresolvedConstantLit{
                       scope = UnresolvedConstantLit{
@@ -8049,6 +8702,7 @@ ClassDef{
               ]
             }
           }
+          pos_args = 1
           args = [
             ConstantLit{
               orig = nullptr
@@ -8072,6 +8726,7 @@ ClassDef{
               }
               fun = <U unsafe>
               block = nullptr
+              pos_args = 1
               args = [
                 ConstantLit{
                   orig = nullptr
@@ -8081,6 +8736,7 @@ ClassDef{
             }
             fun = <U raise>
             block = nullptr
+            pos_args = 1
             args = [
               Literal{ value = "Sorbet rewriter pass partially unimplemented" }
             ]
@@ -8093,6 +8749,7 @@ ClassDef{
           }
           fun = <U include>
           block = nullptr
+          pos_args = 1
           args = [
             UnresolvedConstantLit{
               scope = UnresolvedConstantLit{
@@ -8111,6 +8768,7 @@ ClassDef{
           }
           fun = <U keep_self_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -8126,6 +8784,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -8141,6 +8800,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -8156,6 +8816,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -8171,6 +8832,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -8186,6 +8848,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -8201,6 +8864,7 @@ ClassDef{
           }
           fun = <U keep_def>
           block = nullptr
+          pos_args = 2
           args = [
             Local{
               localVariable = <U <self>>
@@ -8218,6 +8882,7 @@ ClassDef{
       }
       fun = <U keep_def>
       block = nullptr
+      pos_args = 2
       args = [
         Local{
           localVariable = <U <self>>
